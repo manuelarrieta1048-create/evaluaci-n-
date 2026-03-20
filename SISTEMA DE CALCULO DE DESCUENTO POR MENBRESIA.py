@@ -8,7 +8,7 @@ tipo_cliente = input("Ingrese el tipo de cliente (normal/premium): ")
 if tipo_cliente.lower() == "premium":# lower convirte el texo en minuscula.(if,si)
     descuento = valor_compra * 0.15  # Calculamos el 15% de descuento
 else:# si no se hace esto
-    descuento = 0  # Si no es premium, no hay descuento.
+    descuento = 0.50 # Si no es premium, no hay descuento.
 
 # Calculamos el total a pagar
 total_pagar = valor_compra - descuento
