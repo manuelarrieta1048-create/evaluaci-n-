@@ -15,4 +15,5 @@ total_pagar = valor_compra - descuento
 
 # Mostramos el resultado final
 print("El total a pagar es:", total_pagar)
-#hola
+print("Descuento aplicado:", descuento)
+print("Total a pagar:", total_pagar)
